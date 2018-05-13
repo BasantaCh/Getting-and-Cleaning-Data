@@ -8,3 +8,9 @@ was downloaded and correspondinlgy following task were performed on the dataset 
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+The data for the test and train are located in the separate folder and this data needs to be merged into a single file.
+For this, the features and activity lables from the features file and activity file in txt format were read into R and is used to describe
+the feature data that were retrived from the train and test file.  
+
+The grep function is used to extract the mean and standard deviation for each of the measurement.
+Before loading the code in R, make sure the library data.table and reshape2 is installed in your environment. 
